@@ -41,8 +41,12 @@
 
 ---
 
-<details> <summary>📁 <b>Project Structure</b></summary>
-  Jarvis/
+<details>
+<summary>##📁 <b>Project Structure</b></summary>
+
+<br>
+
+```bash
 ├── __pycache__/                          # Compiled Python files
 │   └── main.cpython-*.pyc
 │
