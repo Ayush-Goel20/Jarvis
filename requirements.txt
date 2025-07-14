@@ -1,0 +1,17 @@
+eel
+hugchat
+pvporcupine
+pyaudio
+pyautogui
+pywhatkit
+pygame
+pyttsx3
+SpeechRecognition
+flask
+opencv-python
+opencv-contrib-python
+numpy
+pillow
+requests
+flask-cors
+keyboard
