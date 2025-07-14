@@ -41,9 +41,8 @@
 
 ---
 
-## 📁 Project Structure
-
-Jarvis/
+<details> <summary>📁 <b>Project Structure</b></summary>
+  Jarvis/
 ├── __pycache__/                          # Compiled Python files
 │   └── main.cpython-*.pyc
 │
@@ -57,20 +56,19 @@ Jarvis/
 │   │   ├── sample.py                     # Image capture script
 │   │   └── trainer.py                    # Training script
 │   │
-│   ├── command.py                        # Voice commands processing
+│   ├── command.py                        # Voice command processing
 │   ├── config.py                         # Configuration file
 │   ├── cookie.json                       # Session or cookie storage
 │   ├── db.py                             # Database (e.g., SQLite) operations
 │   ├── feature.py                        # Feature extraction or analysis
 │   └── helper.py                         # Common utility functions
 │
-├── env.jarvis/                           # Python virtual environment (should be ignored)
-│   └── ...                               # Site-packages and Python binaries
+├── env.jarvis/                           # Python virtual environment (ignored)
 │
 ├── frontend/                             # Web frontend files
 │   ├── assets/
-│   │   ├── audio/                        # Audio files for feedback or interaction
-│   │   ├── img/                          # Images or avatars used in the UI
+│   │   ├── audio/                        # Audio feedback files
+│   │   ├── img/                          # Image assets for UI
 │   │   └── vendor/
 │   │       └── texllate/
 │   │           ├── animate.css
@@ -79,15 +77,15 @@ Jarvis/
 │   │           └── style.css
 │   │
 │   ├── controller.js                     # JS controller for UI logic
-│   ├── index.html                        # Landing page for Jarvis interface
-│   ├── main.js                           # Main script for event listeners or features
+│   ├── index.html                        # UI entry page
+│   ├── main.js                           # Main logic script
 │   ├── script.js                         # Additional scripts
-│   └── style.css                         # Custom styling for the frontend
+│   └── style.css                         # Frontend styles
 │
-├── run.py                                # Main launcher script for Jarvis
-├── .gitignore                            # Files/folders excluded from GitHub
-└── README.md                             # Project documentation (this file)
-
+├── run.py                                # Main launcher script
+├── .gitignore                            # Files/folders ignored by Git
+└── README.md                             # Project documentation
+</details>
 ---
 
 ## 🚀 Getting Started
