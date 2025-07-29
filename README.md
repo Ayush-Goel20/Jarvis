@@ -13,7 +13,7 @@
 
 ---
 ## 🖼️ Screenshots
-![Jarvis](.frontend/assets/img/jarvis.jpg)
+![Jarvis](./frontend/assets/img/jarvis.jpg)
 
 ---
 
