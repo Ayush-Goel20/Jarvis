@@ -12,6 +12,10 @@
 </p>
 
 ---
+## 🖼️ Screenshots
+![Desktop Screenshot](./assets/img/jarvis.jpg)
+
+---
 
 ## 🧠 Overview
 
